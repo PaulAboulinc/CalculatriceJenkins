@@ -24,6 +24,6 @@ public class CalculatriceTest {
     public void simpleTestDivSuccess() throws ScriptException {
         int a = 1;
         int b = 2;
-        assertEquals("50", Calculatrice.calculate("10/2"));
+        assertEquals("5", Calculatrice.calculate("10/2"));
     }
 }
