@@ -11,6 +11,11 @@ pipeline {
                 sh 'mvn test'
             }
         }
+        stage('SonarQube') {
+            steps {
+                sh 'mvn sonar:sonar   -Dsonar.projectKey=org.example:CalculatriceJenkins   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=4e24f894e09b6df75eae4ccb9bf653103eb82605'
+            }
+        }
     }
     post {
         always {
