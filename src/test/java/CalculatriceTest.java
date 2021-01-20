@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import javax.script.ScriptException;
 
-public class SimpleTest {
+public class CalculatriceTest {
 
     @Test
     public void simpleTestAddSuccess() throws ScriptException {
