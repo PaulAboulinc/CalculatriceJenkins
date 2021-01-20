@@ -5,8 +5,8 @@ import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 public class Calculatrice {
-//    private Calculatrice() {
-//    }
+    private Calculatrice() {
+    }
 
     public static String calculate(String calculationString) throws ScriptException {
         ScriptEngineManager script = new ScriptEngineManager();
