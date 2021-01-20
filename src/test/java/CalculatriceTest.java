@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import Calculatrice.Calculatrice;
+import calculatrice.Calculatrice;
 import org.junit.Test;
 
 import javax.script.ScriptException;
